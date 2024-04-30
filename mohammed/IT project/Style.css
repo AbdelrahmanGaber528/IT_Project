@@ -1,0 +1,154 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+   /* background-image: url("png_20220403_142058_0000_1600x.jpg"); */
+   background-size: cover;
+   /* background: var(--primary-color) ; */
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+ input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    /* color: white; */
+   background: transparent;
+    font-size: 15px;
+   /* color: #fff; */
+   padding-left: 10px;
+   margin-left: 10px;
+   
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    cursor: text;
+    /* color: white; */
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    /* color: #fff; */
+    outline: none;
+    /* background: transparent; */
+    /* border: 1px solid black; */
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 20px;
+
+}
+#welcome{
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    
+    border: 30px;
+    width: 100%;
+    
+    font-size: large;
+    /* color: #fff; */
+    font-size: 200%;
+    
+    
+    
+}
+#name{
+   /* background-color: azure;*/
+    /* color: #fff; */
+    
+}
+#message{
+    /* color: #fff; */
+}
+#main{
+    font-size: 60px;
+    /* color: #fff; */
+    text-align: center;
+}
+/* extarea{ */
+    /* height: ; */
+
+#moon{
+    width: 30px;
+    cursor: pointer;
+
+}
+/* :root{ */
+    /* --primary-color: #edf2fc; */
+    /* --secondary-color: #212121;  */
+#toggleDark{
+    font-size: 50px;
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%,-50%);
+    background-size: cover;
+
+}
+placeholder{
+    color: white;
+}
+/* light mode styles */
+/* Light mode styles */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Text color for dark mode */
+.dark-mode p {
+    color: #ffffff;
+}
+#foo{
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+#foo i{
+    margin-right: 10px;
+}
+input{
+    color: orange;
+    
+}
+textarea{
+    color: orange;
+}
+#toggleDark{
+    position: relative;
+    left:  20px;    
+}

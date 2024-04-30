@@ -1,0 +1,172 @@
+.nv00-gnb__logo-wrap{
+    margin-bottom: 20px;
+    width: 98%;
+    background-color: #eee;
+    padding: 10px;
+    margin-left: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: sans-serif;
+}
+ul li a:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black ;
+    border: 10px solid black;
+    border-radius: 15px;
+    color: white;
+}
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.item{
+    font-weight: bold;
+    display:flex;
+    width: 35%;
+    height: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #eee;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+.main .shop{
+    font-family: sans-serif;
+    font-size: smaller;
+    border: 10px solid black;
+    width:30% ;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 15px;
+    height: 33px;    
+}
+.main img{
+    width: 70%;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    
+}
+.main .shop:hover{
+    opacity: 60%;
+    transition: 0.3s;
+}
+.main img:hover{
+    cursor: pointer;
+    scale: 1.09;
+    transition: 0.3s;
+}
+video{
+    margin-left: 170px;
+
+}
+
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item2{
+    display:flex;
+    width: 35%;
+    height: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #eee;
+    border-radius:15px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+.main2 .item2 .price{
+    width: 100%;
+    top: 10px;
+    position: relative;
+}
+.main2 .Buy{
+    font-family: sans-serif;
+    font-size: smaller;
+    border: 10px solid black;
+    width:27% ;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+}
+.main2 img{
+    width: 70%;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    
+}
+.main2 .Buy:hover{
+    opacity: 60%;
+    transition: 0.3s;
+}
+iframe{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}    
+    .B{
+        display: flex;
+        font-size: 40px;
+        font-family: sans-serif;
+        justify-content: center;
+    }
+    .T{
+        display: flex;
+justify-content: center;
+
+    }
+    thead{
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+       
+    }
+tr{
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+   
+   
+}
+td{
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 8px solid #eee;
+    border-radius: 8px;
+    width: 600px;
+    font-size: larger;
+    
+ 
+}

@@ -1,0 +1,76 @@
+#fixedback,logo{
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
+    font-size: 50px;
+    /* background-image: url(550582995-d552d0577fd1a535295445b5364f8cc21f83571806f3493bc68712d1d7ece670-d.jpg); */
+    color: white;
+    
+
+ 
+}
+#welcome{
+    font-size: 60px;
+    color: #ffff;
+    text-align: center;
+    background-image: url(550582995-d552d0577fd1a535295445b5364f8cc21f83571806f3493bc68712d1d7ece670-d.jpg);
+    /* background-attachment: fixed; */
+    position: fixed;
+    width: 100%;
+    /* background-attachment: inherit; */
+}
+#size{
+    float: right;
+    
+
+}
+#dessize{
+    font-size: 200%;
+    color: white;
+}
+#design{
+    font-size: 200%;
+    /* background-image: url(550582995-d552d0577fd1a535295445b5364f8cc21f83571806f3493bc68712d1d7ece670-d.jpg); */
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    background-image: url(550582995-d552d0577fd1a535295445b5364f8cc21f83571806f3493bc68712d1d7ece670-d.jpg);
+    background-attachment: fixed;
+
+}
+#videok{
+    background-image: url(550582995-d552d0577fd1a535295445b5364f8cc21f83571806f3493bc68712d1d7ece670-d.jpg);
+    background-attachment: fixed;
+}
+#imgadaptive{
+    width: 50%;
+
+}
+#duals{
+    font-size: 50px;
+    
+}
+#adaptive{
+    font-size: 50px;
+}
+#haptic{
+    font-size:50px;
+}
+#Cpuspec{
+    font-size:50px;
+    color: #ffff;
+}
+#row1{
+    font-size: 50px;
+}
+#foo{
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+#foo i{
+    margin-right: 10px;
+}

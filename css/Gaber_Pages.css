@@ -1,0 +1,1080 @@
+
+
+/* 
+**************************
+Abdelrahman Gaber Pages Start<<
+**************************
+*/
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;/*delete any extra spaces around the body from the browser*/
+    padding: 0;/*delete any extra space around the elements by the browser*/
+    height: 100vh;/*take the full height of browser window (viewport)*/
+}
+.header_About{
+    display: flex;/*make the elements in a oneline*/
+    top: 0;
+    left: 0;
+    background-color:  rgb(64, 41, 85);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 800;
+}
+.header_About h1{
+    color: #74baff;
+    margin-left: 90px;
+    margin-top: 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.header_About a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    font-weight:bold;
+    margin-left: 70px;
+}
+.header_About a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 126, 247);
+    border-radius: 20px;
+}
+.header_About ul{
+    list-style-type:none;
+    display: flex;  
+    margin-left: 200px;
+    margin-top: 21px;
+}
+#night_Mode{
+    margin-left: 30px;
+}
+#night_Mode:hover{
+    background-color: gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main0{
+
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:72px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 51, 51);
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 340px;
+}
+.head h1 span{
+    color: rgb(22, 135, 241);
+    text-transform: uppercase;
+    font-size: 74px;
+}
+#Abdelrahman_audio{
+    margin-left: 34em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story h2{
+    text-align: center;
+    color: rgb(103, 82, 134);
+    font-size: 40px;
+    margin-left: -70px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-weight: 150;
+}
+.story p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-left:20px;
+    margin-right:20px;
+    font-family:'Courier New', Courier, monospace;
+    text-wrap:wrap;
+    line-height:1.8;
+}
+.Title{
+    color: rgb(0, 88, 159);
+}
+.ourteam{
+    text-align: center;
+    font-size: 35px;
+    margin-left: -80px;
+    margin-bottom: 40px;
+    color: rgb(103, 82, 134);
+    font-weight: 150;
+}
+.cardscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 130px;
+}
+.card {
+    width: 280px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border:0px solid #181818d9;
+    height:475px;
+    box-shadow: 0 5px 25px rgba(64, 63, 63, 0.2);  
+    transition: 0.7s ease; 
+
+}
+.card:hover {
+    box-shadow: 0 5px 27px rgba(120, 119, 119, 0.5);  
+    transform: scale(1.02);   
+}
+.image{
+    width: 280px;
+    height: 300px;
+}
+.cardcontent h2{
+    padding-left: 12px;
+    color: rgb(20, 139, 250);
+}
+.cardcontent button{
+    margin-left: 95px;
+    background-color: rgb(115, 113, 113);
+    padding: 5px;
+    border-radius:10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    text-decoration: none;
+    transition: 0.5s ease; 
+    font-weight: bold;
+}
+.cardcontent button:hover{
+    background-color:  rgb(2, 2, 2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    z-index:999;
+    padding-left: 38em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.95);
+}
+.image_modal{
+    width: 280px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.info{
+    width: 50%;
+    border-collapse:collapse;
+    border: 1px solid #5d11ae;
+    margin-left: -80px;
+}
+.info th, .info td {
+    padding: 10px; 
+    text-align: center; 
+    border-bottom: 1px solid #74baff; 
+}
+.info td{
+    background-color: rgb(26, 59, 76);
+    color:#ffffff;
+}
+.info td:hover{
+    background-color: rgb(42, 88, 111);
+    color: rgb(250, 252, 255);
+}
+.info th{
+    background-color: #f2f2f2;
+}
+.info th:hover{
+    background-color: rgb(222, 217, 217);
+    color:rgb(47, 103, 131);
+}
+.info a{
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    margin-left: 10px;
+}
+.info a:hover{
+    color: rgb(156, 152, 152);
+}
+.close {
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover{
+    color:rgb(103, 82, 134);
+    text-decoration: none;
+    cursor: pointer;
+}
+.video_Electronic{
+    margin-top: 70px;
+    margin-left: 260px;
+    width: 1000px;
+    height: 562px;
+}
+.iframe_elctronic{
+    width: 80%;
+    margin-left: 180px;
+    margin-top: 21px;
+}
+.products_title{
+    margin-left: 20em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    width: 190px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#change_Gaber{
+    margin-top:-60px;
+    color: rgb(0, 119, 255);
+    margin-left: 64em;
+    width: 130px;
+    padding: 10px;
+    background-color: black;
+}
+.change_products{
+    margin-left: 78em;
+    cursor: pointer;
+}
+.second_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left:150px;
+}
+.electronic_product{
+    width: 280px;
+    height: 580px;
+    box-shadow: 0 5px 10px rgba(1 1 1 /10%);  
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.image_electronic{
+    width: 280px;
+    height: 300px;
+}
+.product_summary{
+    margin-left: 15px;
+}
+.product_summary h2 a{
+    text-decoration: none;
+    color: black;
+}
+.product_summary h2 a:hover{
+    color: rgb(0, 119, 255);
+}
+.products_cost{
+    margin-left: 80px;
+    font-size: 40px;
+    color: brown;
+}
+.buy_product{
+    border-color: brown;
+    border-style: dotted;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    color: brown;
+    background-color: rgb(202, 199, 199);
+    text-transform: uppercase;
+}
+.buy_product:hover{
+    cursor: pointer;
+    color: red;
+}
+#form_Gaber{
+    margin-left: 550px;
+    padding-left: 0px;
+    padding-top: 50px;
+    width: 400px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#form_Gaber legend{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
+#form_Gaber label{
+    font-size: 18px;
+    color: rgb(100, 47, 165);
+    margin-top: 30px;
+}
+.input{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 250px;
+    color: rgb(85, 125, 145);
+    font-size: 16px;
+}
+#btn_bayment{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 115px;
+}
+#btn_bayment:hover{
+    cursor: pointer;
+}
+#Gaber_Footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 17px;
+    background-color:  rgb(64, 41, 85);
+}
+#Gaber_Footer h4{
+    color: #e498ff; 
+    margin-left: 4em;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+#Gaber_Footer p{
+        margin-left: 34em;
+        margin-top: -35px;
+        color: white;
+}
+#Gaber_Footer p span{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #74baff;
+}
+/* 
+**************************
+Abdelrahman Gaber Pages End<<
+**************************
+*/
+
+/************************************************************************************************************************************* */
+
+
+/* 
+**************************
+Omar Ashraf Pages Start<<
+**************************
+*/
+/*header*/
+*{
+    text-decoration: none;
+}
+.header_omar{ 
+    background-color: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #afafaf93;
+    font-weight: bold;
+    
+}
+
+.header_omar nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+}
+
+.header_omar nav .logo_omar{
+    color: #fff;
+    font-size: 30px;
+}
+
+.header_omar nav .logo_omar span{
+    color: #08d665;
+}
+
+.header_omar nav .links{
+    display: flex;
+    
+}
+
+.header_omar nav .links li{
+    position: relative;
+    margin: 0 25px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header_omar nav .links li:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #08d665;
+}
+
+.header_omar nav .links li:hover::after{
+    width: 100%;
+}
+
+.header_omar nav .links li a{
+    color: #c8c6c6;
+    font-size: 17px;
+}
+/*body*/
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.searc{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.sear{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.sea{
+    width: 55px;
+    background: #000;
+    color: #fff;
+    border-radius: 15px ;
+    transition: 0.5s;
+}
+
+.sea:hover{
+    background: #606063;
+}
+
+h4 .glass{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+#featured-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.product-details {
+    text-align: left;
+}
+
+.product-details h2 {
+    font-size: 24px;
+}
+
+.product-details p , .product-details h3 {
+    margin: 5px ;
+}
+
+.product-image {
+    text-align: center;
+}
+
+.product-image img {
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.buy{
+    display: inline;
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy:hover {
+    background-color: #333 ;
+}  
+
+.change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.change button{
+    border-radius: 10px;
+    color: white;
+    background: #000;
+    width: 300px;
+    height: 50px;
+    border: 6px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.change button:hover{
+    background: #606063;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+
+}
+.fram{
+    display: flex;
+    justify-content: center;
+}
+
+.fram iframe{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+#product1 .pro-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+#product1 .pro-container .pro{
+    background: white;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,02);
+    margin: 15px 0;
+    position: relative;
+}
+
+#product1 .pro-container .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: center;
+    padding: 10px ;
+}
+
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+#product1 .pro-container .pro:hover .des {
+    opacity: 0; 
+}
+
+#product1 .pro-container .pro:hover .buy-now {
+    background-color: #000;
+    opacity: 1; 
+    border-radius: 40px;
+}
+
+#product1 .pro-container .pro .buy-now {
+    opacity: 0; 
+    transition: 0.3s; 
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#product1 .pro-container .pro .buy-now:hover {
+    background-color: #333; 
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: 20px;
+    border: 1px solid #700;
+    padding: 15px;
+    color: white;
+    background: #000;
+    border-radius: 30px;
+    transition: 0.7s;
+    font-size: 30px;
+}
+
+.next:hover{
+    background-color: #333 ;
+}   
+/*next bage*/
+
+.video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top #scroll{
+    border-radius: 10px;
+    color: white;
+    background: #000;
+    width: 300px;
+    height: 50px;
+    border: 6px;
+    font-size: 30px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+.top #scroll:hover{
+    background: #606063;
+}
+
+.table_omar{
+    display: flex;
+    justify-content: center;
+}
+
+.table_omar{
+    border-collapse: collapse;
+    margin-left: 23.5em;
+}
+
+.table_omar ,.table_omar ,.table_omar ,.table_omar th{
+    border: 1px solid black;
+    width: 770px;
+}
+
+.table_omar tr{
+    height: 50px;
+    text-align: center;
+}
+
+.table_omar tr:hover{
+    background-color: #f5f5f5;
+}
+
+.table_omar tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table_omar th{
+    background-color: #4caf4c;
+}
+.from_omar_ashraf{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.from_omar_ashraf label{
+    font-size: 30px;
+}
+
+.input_omar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    margin: 15px;   
+}
+
+.from_omar_ashraf div{
+    margin: 15px;
+}
+
+.submit_omar{
+    transform: translateX(63%);
+    background: black;
+    color: #fff;
+    margin-top: 1px;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: -250px;
+}
+
+.submit_omar:hover{
+    background: #333;
+}
+
+.audio h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ooo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    height: 100px;
+}
+/*footer*/
+
+.footer-omar_ashraf{
+    background: #000;
+    color: #fff;
+}
+
+.footer-omar_ashraf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-omar_ashraf p{
+    max-width: 500px;
+    font-size: 14px;
+}
+/* 
+**************************
+Omar Ashraf Pages End<<
+**************************
+*/
+
+/************************************************************************************************************************************* */
+
+/* 
+**************************
+Abderlrahman Ashraf Pages Start<<
+**************************
+*/
+/* #body_abd_ashraf{
+    display: flex;
+    min-height: 100vh;
+    background: rgb(199, 196, 196);
+    align-items: center;
+    justify-content: center;
+}
+#section_ashraf{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    filter: blur(3PX) brightness(40%);
+}
+#ashraf_form h2{
+    display: block;
+    color: rgb(3, 3, 3);
+}
+.container_ashraf{
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 0 5 30px rgba(255, 0, 0, 30%);
+    opacity: 0.6;
+}
+.container_ashraf form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+#ashraf_form h1{
+    padding: 10px 0;
+}
+#ashraf_form > div{
+    position: relative;
+}
+.id_ashraf i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+#ashraf_form input{
+    width: 100;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    background: #bbb8b8;
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+}
+#ashraf_form textarea{
+    padding: 5px 15px;
+    border: 1px solid #fffdfd;
+    border-radius: 3px;
+    background: #aca7a7;
+    font-size: 20px;
+    width: 100%;
+}
+#ashraf_form button{
+    margin-top: 5px;
+    border: none;
+    background: #00fff0;
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#ashraf_form input:focus,
+#ashraf_form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+#ashraf_form input:focus::placeholder,
+#ashraf_form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+#ashraf_form input:focus + i{
+    color: #00fff0;
+    transition: all 0.3s ease;
+} */
+/*************************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container_abdelrahman_ashraf{
+    width: 900px;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+svg{
+    width: 30px;
+}
+.abdelrahman_ashraf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.icon-cart{
+    position: relative;
+}
+.icon-cart span{
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+.title_Ashraf{
+    font-size: xx-large;
+}
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+}
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.listProduct .item{
+    background-color: #EEEEE6;
+    padding: 20px;
+    border-radius: 20px;
+}.item {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.listProduct {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+  }
+  .listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+  }
+  .item a.btn {
+    display:inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+    cursor:pointer;
+    text-decoration: none;
+    }
+    
+  
+  /* cart */
+  .cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+  }
+  body.showCart .cartTab{
+    right: 0;
+  }
+  body.showCart .container{
+    transform: translateX(-250px);
+  }
+  .cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+  }
+  .cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cartTab button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .cartTab .close{
+    background-color: #989393;
+    margin-top: 620px;
+  }
+  .listCart .item img{
+    width: 100%;
+  }
+  .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+  }
+  .listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    cursor: auto;
+  }
+  .listCart .item:nth-child(even){
+    background-color: #eee1;
+  }
+  .listCart{
+    overflow: auto;
+  }
+  .listCart::-webkit-scrollbar{
+    width: 0;
+  }
+  @media only screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  
+  /* mobile */
+  @media only screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }

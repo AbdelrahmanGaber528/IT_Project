@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>BuyingProcess</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="auther" content="Abdelrahman_Gaber_Elsant">
+        <link  rel="stylesheet" href="css/Gaber_Pages.css">
+        <link rel="icon" href="images/GM.jpg">
+    </head>
+    <body>
+        <div class="form_electronices">
+            <form action="form_electronices.html" method="get" id="form_Gaber">
+                <fieldset>
+                    <legend>BAYMENT</legend>
+                <label for="Name_electronic">Name:</label><br>
+                <input type="text" id="Name_electronic" placeholder="name" required class="input"><br>
+                <label for="phone_electronic">Phone_Number:</label><br>
+                <input type="number" id="phone_electronic" placeholder="phone" required class="input"><br>
+                <label for="email_electronic">Email:</label><br>
+                <input type="email" id="email_electronic" placeholder="email" required class="input"><br>
+                <label for="products_number">Number_Of_Products:</label><br>
+                <select name="Number_Of_Products" id="products_number" class="input" id="Gaber_Select">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+                    <label for="options">Bayment_Methods:</label><br>   
+                    <input type="radio" name="options" id="visa">
+                    <label for="visa">Visa</label>
+                    <input type="radio" name="options" id="cash">
+                    <label for="cash">Cash</label><br>
+                <input type="submit" id="btn_bayment" onclick="check();">
+            </fieldset>
+            </form>
+        </div>
+        <script src="js/Gaber_Pages.js"></script>
+    </body>
+</html>
