@@ -10,18 +10,16 @@
 <body>
     <header>
         <div class="container">
-        <a href="Home.html" class="logo">GMstore</a>
+        <a href="Home.html" class="logo">GMSTORE</a>
         <ul class="mid">
-            
             <li><a href="Home.html">Home</a></li>
-            <li><a href="../Electronic.html">Electronices</a></li>
+            <li><a href="../project abdelslam mohamed/html/A0.html">Laptops</a></li>
             <li><a href="smart.html">Smart</a></li>
-            <li><a href="../Samsung/Samsung.html">Phones</a></li>
-            <li><a href="../mohammed/IT project/contact.html">ContactUs</a></li>
+            <li><a href="../TV_store1.html">TV</a></li>
+            <li><a href="../mohammed/it second page/second page.html">PlayStatioin</a></li>
             <li><a href="../index.html">About</a></li>
-            
-        </ul>
-        <ul class="right">
+          </ul>
+          <ul class="right">
             <li><a href="../shafik/signin copy.html">Sign in</a></li>
             <li><a href="../shafik/sign up.html">Sign Up</a></li>
         </ul>
@@ -40,74 +38,74 @@
     </div>
     <div class="content">
         <div class="sidebar">
-            <ul>
-            <li class="active alll" onclick="filterSelection('all')" >All</li>
-            <li class="alll" onclick="filterSelection('Button')" >Button</li>
-            <li class="alll" onclick="filterSelection('Outlit')" >Outlit</li>
-            <li class="alll" onclick="filterSelection('Sensor')" >Sensor</li>
-            <li class="alll" onclick="filterSelection('Hub')" >Hub</li>
-            <li class="alll" onclick="filterSelection('Plug')" >Plug</li>
+            <ul >
+            <li data-name="all" class="active">All</li>
+            <li data-name="Button" >Button</li>
+            <li data-name="Outlit" >Outlit</li>
+            <li data-name="Sensor" >Sensor</li>
+            <li data-name="Hub" >Hub</li>
+            <li data-name="Plug" >Plug</li>
             </ul>
         </div>
         <div class="products">
             <div class="img1 img">
-                <div class="text">
+                <div class="text" data-name="Outlit">
                     <h1>SmartThings Cam</h1>
                     <p>Best Smart Things in GM store</p>
                     <a class="buy" href="#">Buy Now</a>
                 </div>
                 <div class="imgg1 imgg">
-                    <img class="all outlit" src="photo/cam.avif" alt="">
+                    <img  class="all" src="photo/cam.avif" alt="">
                 </div>
             </div>
-            <div class="img2 img">
+            <div class="img2 img" data-name="Outlit">
                 <div class="text">
                     <h1>Motion Sensor</h1>
                     <p>Best Smart Things in GM store</p>
                     <a class="buy" href="#">Buy Now</a>
                 </div>
                 <div class="imgg2 imgg">
-                    <img class="all outlit" src="photo/motion.avif" alt="">
+                    <img  class="all" src="photo/motion.avif" alt="">
                 </div>
             </div>
-            <div class="img3 img">
+            <div class="img3 img" data-name="Sensor">
                 <div class="text">
                     <h1>Multipurpose Sensor</h1>
                     <p>Best Smart Things in GM store</p>
                     <a class="buy" href="#">Buy Now</a>
                 </div>
                 <div class="imgg3 imgg">
-                    <img class="all sensor" src="photo/multipurpos_sensor.avif" alt="">
+                    <img  class="all" src="photo/multipurpos_sensor.avif" alt="">
                 </div>
             </div>
-            <div class="img4 img">
+            <div class="img4 img" data-name="Button">
                 <div class="text">
                     <h1>Smart Button</h1>
                     <p>Best Smart Things in GM store</p>
                     <a class="buy" href="#">Buy Now</a>
                 </div>
                 <div class="imgg4 imgg">
-                    <img class="all button" src="photo/smart_button.avif" alt="">
+                    <img  class="all" src="photo/smart_button.avif" alt="">
                 </div>
             </div>
-            <div class="img5 img">
+            <div class="img5 img" data-name="Hub">
                 <div class="text">
                     <h1>SmartThings Hub</h1>
                     <p>Best Smart Things in GM store</p>
                     <a class="buy" href="#">Buy Now</a>
                 </div>
                 <div class="imgg5 imgg">
-                    <img class="all hub" src="photo/smart_hub.avif" alt="">
+                    <img  class="all" src="photo/smart_hub.avif" alt="">
                 </div>
             </div>
-            <div class="img6 img">
+            <div class="img6 img" data-name="Sensor">
                 <div class="text">
                     <h1>Water Leak Sensor</h1>
                     <p>Best Smart Things in GM store</p>
                     <a class="buy" href="#">Buy Now</a>
                 </div>
                 <div class="imgg6 imgg">
-                    <img class="all sensor" src="photo/water_sensor.avif" alt="">
+                    <img  class="all" src="photo/water_sensor.avif" alt="">
                 </div>
             </div>
         </div>
@@ -122,26 +120,22 @@
             It only takes two minutes!! 
         </div> 
         <form name="myForm" onsubmit="return validateForm()"> 
-            <label for="uname"> 
+            <label for="name"> 
                 <i class="fa fa-solid fa-user"></i> 
                 Name 
             </label> 
-            <input type="text" id="uname" 
-                   name="uname" required> 
-  
+            <input type="text" id="name" name="name" >
+            <button onclick="saveUsername()">save your username</button> 
             <label for="email"> 
                 <i class="fa fa-solid fa-envelope"></i> 
                 Email Address 
             </label> 
-            <input type="email" id="email" 
-                   name="email" required> 
-  
+            <input type="email" id="email" name="email" > 
             <label for="phone"> 
                 <i class="fa-solid fa-phone"></i> 
                 Phone No 
             </label> 
-            <input type="tel" id="phone" 
-                   name="phone" required> 
+            <input type="tel" id="phone" name="phone" > 
   
             <label> 
                 <i class="fa-solid fa-face-smile"></i> 
@@ -157,12 +151,12 @@
                 <label for="no">No</label> 
             </div> 
   
-            <label for="msg"> 
+            <label for="message"> 
                 <i class="fa-solid fa-comments" 
                    style="margin-right: 3px;"></i> 
                 Write your Suggestions: 
             </label> 
-            <textarea id="msg" name="msg" 
+            <textarea id="message" name="message" 
                       rows="4" cols="10" required> 
             </textarea> 
             <button type="submit"> 
@@ -170,7 +164,7 @@
             </button> 
         </form> 
     </div> 
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="container">
           <div class="box">
             <h3>Samsung</h3>
@@ -197,11 +191,11 @@
           </div>
           <div class="box">
             <ul class="links">
-              <li><a href="#">Important Link 1</a></li>
-              <li><a href="#">Important Link 2</a></li>
-              <li><a href="#">Important Link 3</a></li>
-              <li><a href="#">Important Link 4</a></li>
-              <li><a href="#">Important Link 5</a></li>
+              <li><a href="#">Phones</a></li>
+              <li><a href="#">TV</a></li>
+              <li><a href="#">Taplets</a></li>
+              <li><a href="#">Home Applinces</a></li>
+              <li><a href="smart.html">Smart</a></li>
             </ul>
           </div>
           <div class="box">
@@ -225,34 +219,6 @@
         <p class="copyright">Made With &lt;3 By Our Team</p>
       </div>
       
-    <script>
-        function validateForm() {
-            // Get form inputs
-            var name = document.forms["myForm"]["name"].value;
-            var email = document.forms["myForm"]["email"].value;
-            var message = document.forms["myForm"]["message"].value;
-        
-            // Validate name
-            if (name == "") {
-                alert("Name must be filled out");
-                return false;
-            }
-        
-            // Validate email
-            if (email == "") {
-                alert("Email must be filled out");
-                return false;
-            }
-        
-            // Validate message
-            if (message == "") {
-                alert("Message must be filled out");
-                return false;
-            }
-        
-            // If all validations pass, return true
-            return true;
-        }
-    </script>
+    <script src="mainn.js"></script>
 </body>
 </html>
