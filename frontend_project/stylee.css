@@ -1,12 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 .home_page{
 * {
     margin : 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'SamsungSharpSans';
-}
-html{
-    scroll-behavior: smooth;
 }
 ul{
     list-style: none;
@@ -606,6 +606,7 @@ header .container .right button{
     color: black;
     padding: 16px;
     text-decoration: none;
+    cursor: pointer;
 }
 
   /* Active/current link */
@@ -836,6 +837,9 @@ header .container .right button{
 }
 .content .products .img6 .text a:hover{
     background-color: #605e5e;
+}
+.content .products .img.hide{
+    display: none;
 }
 .videoo video{
     width: 1000px;
